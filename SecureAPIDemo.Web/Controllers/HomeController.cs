@@ -29,7 +29,7 @@ namespace SecureAPIDemo.Web.Controllers
 
             var calculator = new List<KeyValuePair<string, string>>();
             calculator.Add(new KeyValuePair<string, string>("number1", number1.ToString()));
-            calculator.Add(new KeyValuePair<string, string>("number2", number1.ToString()));
+            calculator.Add(new KeyValuePair<string, string>("number2", number2.ToString()));
 
             using (var apiClient = new HttpClient())
             {
@@ -57,7 +57,7 @@ namespace SecureAPIDemo.Web.Controllers
 
             var calculator = new List<KeyValuePair<string, string>>();
             calculator.Add(new KeyValuePair<string, string>("number1", number1.ToString()));
-            calculator.Add(new KeyValuePair<string, string>("number2", number1.ToString()));
+            calculator.Add(new KeyValuePair<string, string>("number2", number2.ToString()));
 
             using (var apiClient = new HttpClient())
             {

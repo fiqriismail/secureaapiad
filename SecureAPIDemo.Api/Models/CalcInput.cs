@@ -10,7 +10,7 @@ namespace SecureAPIDemo.Api.Models
     {
         [JsonProperty(PropertyName = "number1")]
         public int Number1 { get; set; }
-        [JsonProperty(PropertyName = "number1")]
+        [JsonProperty(PropertyName = "number2")]
         public int Number2 { get; set; }
     }
 }
